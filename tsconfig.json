@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "lib": ["dom", "es2015", "es5", "esnext", "scripthost"],
+    "baseUrl": "."
+  },
+  "typeRoots": ["./node_modules/@types", "src/types/*"],
+  "include": ["./src"],
+  "exclude": ["**/node_modules", "**/__mocks__", "dist"]
+}
